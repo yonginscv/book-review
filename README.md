@@ -52,6 +52,13 @@ PROVIDER_CODES=["01100401", "01100801", "01101001", "02100101"]
 python main.py
 ```
 
+or
+
+```bash
+python summarize.py 2026-04-25-기사.md custom-output.md  # 출력 경로 지정
+```
+
+
 ### 프로세스 상세
 - **Step 1**: BigKinds 세션 초기화 및 쿠키 획득
 - **Step 2**: 검색 키워드(`(지음 OR 옮김)`) 기반 기사 검색
